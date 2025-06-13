@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRESENTATION</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"aa
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-dark">
+    <div
+      class="container border rounded pl-5 pr-5 mt-4 pt-1 pb-5 shadow-lg bg-body-tertiary"
+    >
+      <h2 class="pt-4">Introduction to Web Development:</h2>
+      <hr class="border-light" />
+      <p class="font-weight-bold mt-4 mb-4">
+        Web development is the process of creating websites and web
+        applications. In today's digital world, it plays a crucial role in how
+        we access information, communicate, and conduct business. Websites serve
+        as the online face of individuals and organizations, making their
+        development essential.<br /><br />
+        Web development is the process of creating, building, and maintaining
+        websites and web applications.
+      </p>
+
+      <div>
+        <h2>Areas of Web Development:</h2>
+        <ul>
+          <li>
+            <button
+              class="btn btn-sm btn-dark transparent-btn"
+              onclick="frontend()"
+            >
+              Frontend Development
+            </button>
+          </li>
+          <li>
+            <button
+              class="btn btn-sm btn-dark transparent-btn"
+              onclick="backend()"
+            >
+              Backend Development
+            </button>
+          </li>
+          <li>
+            <button
+              class="btn btn-sm btn-dark transparent-btn"
+              onclick="fullstack()"
+            >
+              Full Stack Development
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container pt-8 pb-5">
+      <h2 id="frontend">Frontend Development:</h2>
+      <hr class="border-light w-30" />
+      <p class="font-weight-bold mt-4 mb-4">
+        Frontend development refers to everything that users see and interact
+        with on the website.It involves the design, structure, and layout of the
+        website and is often referred to as the ‘client side’ of an application.
+      </p>
+      <br />
+      <h3>Frontend Technologies:</h3>
+      <hr class="border-light w-28" />
+      <ul>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#html"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            HTML &nbsp;<i class="fa-brands fa-html5"></i>
+          </button>
+        </li>
+        <div id="html" class="collapse show pl-3 pr-3 pt-3">
+          HTML stands for HyperText Markup Language. It is the standard markup
+          language used to create and design web pages, defining their structure
+          and layout.
+          <br />
+          <div class="d-flex justify-content-between pt-2">
+            <pre class="text-success"><code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </code></pre>
+            <img
+              class="w-25 h-25 pt-2"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s"
+            />
+          </div>
+        </div>
+
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#css"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            CSS &nbsp; <i class="fa-brands fa-css3-alt"></i>
+          </button>
+        </li>
+        <div id="css" class="collapse pl-3 pr-3 pt-3">
+          Cascading Style Sheets fondly referred to as CSS is a simply designed
+          language intended to simplify the process of making web pages
+          presentable. It is used to style our website.
+          <div class="d-flex justify-content-between pt-2">
+            <p class="text-danger">
+              body {<br />
+              background-color: lightblue;<br />
+              }<br />
+              h1 {<br />
+              color: white; text-align: center;<br />
+              } <br />p {<br />
+              font-family: verdana; font-size: 20px;<br />
+              }
+            </p>
+            <img
+              class="w-25 h-25"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3BKGw9mEXoD5_It6m7XbrdcYkb13zsaWwFQioJ2bkrg9LUAVQxVB0wfznu8sHDpnrR6k&usqp=CAU"
+            />
+          </div>
+        </div>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#js"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            JavaScript &nbsp; <i class="fa-brands fa-js"></i>
+          </button>
+        </li>
+        <div id="js" class="collapse pl-3 pr-3 pt-3">
+          JavaScript is a scripting language used to provide a dynamic behavior
+          to our website.
+          <div class="d-flex justify-content-between pt-2">
+            <p class="text-primary">
+              <br />
+              // store input numbers<br /><br />
+              const num1 = parseInt(prompt('Enter the first number '));<br />
+              const num2 = parseInt(prompt('Enter the second number '));<br /><br />
+
+              //add two numbers<br /><br />
+              const sum = num1 + num2;<br /><br />
+
+              // display the sum<br /><br />
+              console.log(`The sum of ${num1} and ${num2} is ${sum}`);<br />
+            </p>
+            <img
+              class="w-25 h-25"
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            />
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <div class="container pb-5">
+      <h2 id="backend">Backend Development:</h2>
+      <hr class="border-light w-30" />
+      <p class="font-weight-bold mt-4 mb-4">
+        Backend development refers to the server side of a website, where the
+        logic and data are processed and stored. Users do not directly interact
+        with this part, but it ensures that the website works properly.
+      </p>
+      <h3>Core Server-Side Languages:</h3>
+      <hr class="border-light w-34" />
+      <ul>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#php"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            PHP &nbsp;<i class="fa-brands fa-php"></i>
+          </button>
+        </li>
+        <div id="php" class="collapse pl-3 pr-3 pt-3">
+          <p>
+            PHP is a widely used, open-source server-side scripting language
+            primarily designed for web development.PHP code runs on the server
+            (the computer hosting a website) to create the web pages you see.PHP
+            works across different operating systems like Windows, Linux, and
+            macOS.
+          </p>
+          <div class="d-flex justify-content-between pt-2">
+            <pre><code class="text-purple ">
+                &lt;?php
+                // Define an array containing 
+                // the numbers to be added
+                $nums = [10, 20];
+
+                // Use array_sum() to add the numbers
+                $sum = array_sum($nums);
+
+                // Display the result
+                echo "The sum of " . implode(" and ", $nums) . " is: $sum";
+
+                ?>
+
+              </code></pre>
+            <img
+              class="w-25 h-25 pt-5"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
+            />
+          </div>
+        </div>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#java"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            Java &nbsp; <i class="fa-brands fa-java"></i>
+          </button>
+        </li>
+        <div id="java" class="collapse pl-3 pr-3 pt-3">
+          <p>
+            Java is a widely-used, high-level, object-oriented programming
+            language designed to be platform-independent, meaning "write once,
+            run anywhere." It's also extensively used on the server-side for
+            building robust, scalable enterprise applications, web services, and
+            large-scale back-end systems.
+          </p>
+          <div class="d-flex justify-content-between pt-2">
+            <p class="text-warning">
+              public class AddTwoNumbers {<br />
+              &nbsp;&nbsp;public static void main(String[] args) {<br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;// Declare two integer variables
+              <br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;int number1 = 10;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;intnumber2 = 20;<br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;// Add the two numbers<br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;int sum = number1 + number2;<br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;// Print the result to the console
+              <br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;System.out.println("The sum is:" +
+              sum);<br />
+              &nbsp;&nbsp;}<br />
+              }
+            </p>
+            <img
+              class="w-25 h-25 pt-5"
+              src="https://cdn.worldvectorlogo.com/logos/java.svg"
+            />
+          </div>
+        </div>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#python"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            Python &nbsp;<i class="fa-brands fa-python"></i>
+          </button>
+        </li>
+        <div id="python" class="collapse pl-3 pr-3 pt-3">
+          <p>
+            Python is an easy-to-read, high-level programming language used for
+            many things, like building websites (often on the server-side with
+            frameworks like Django), analyzing data, and creating AI. It focuses
+            on simple, clear code.
+          </p>
+          <div class="d-flex justify-content-between pt-2">
+            <p class="text-info">
+              # Define two numbers<br />
+              num1 = 10<br />
+              num2 = 20<br />
+
+              # Add them together<br /><br />
+              sum_result = num1 + num2<br />
+
+              # Print the result<br /><br />
+              print("The sum is:", sum_result)
+            </p>
+            <img
+              class="w-25 h-25"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+            />
+          </div>
+        </div>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#nodejs"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            Node.js &nbsp; <i class="fa-brands fa-node-js"></i>
+          </button>
+        </li>
+        <div id="nodejs" class="collapse pl-3 pr-3 pt-3">
+          <p>
+            Node.js is like a special tool that lets you use JavaScript to build
+            powerful programs that run on a computer server, not just in your
+            web browser. This means you can use JavaScript to create the backend
+            of websites and apps, handling things like user accounts and storing
+            data.
+          </p>
+          <div class="d-flex justify-content-between pt-2">
+            <p class="text-node">
+              // Require would make the prompt package available to use const<br />
+              prompt = require("prompt"); <br />// An utility function to add
+              two numbers <br />
+              function add() { &nbsp;&nbsp;// Start the prompt<br />
+              &nbsp;&nbsp;prompt.start();<br />
+              &nbsp;&nbsp;// Get two numbers/properties<br />
+              &nbsp;&nbsp;// from user num1 and num2<br />
+              &nbsp;&nbsp;prompt.get(<br />
+              &nbsp;&nbsp;["num1", "num2"],<br />
+              &nbsp;&nbsp;function (err, res) {<br />
+              &nbsp;&nbsp;// To handle any error if occurred<br />
+              &nbsp;&nbsp; &nbsp;&nbsp;if (err) {<br />
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;console.log(err);<br />
+              &nbsp;&nbsp; &nbsp;&nbsp;} else {<br />
+              &nbsp;&nbsp; &nbsp;&nbsp;// By default get methods takes input in
+              string So parseFloat is used to convert String into Float<br />
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;var sum =
+              parseFloat(res.num1) + parseFloat(res.num2); <br />
+
+              &nbsp;&nbsp; &nbsp;&nbsp;// Print the sum <br />
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;console.log(
+              "Sum of " + res.num1 + " and " + res.num2 + " is " + sum); <br />
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;}<br />
+              &nbsp;&nbsp; &nbsp;&nbsp;}<br />
+              &nbsp;&nbsp;);<br />
+              }<br />
+              add();
+            </p>
+            <img
+              class="w-25 h-25"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
+            />
+          </div>
+        </div>
+      </ul>
+      <table class="table table-dark table-bordered table-striped table-hover">
+        <th>Backend Languages</th>
+        <th>Backend Frameworks</th>
+
+        <tr>
+          <td>PHP</td>
+          <td>Wordpress</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>Spring</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Django, Flask</td>
+        </tr>
+        <tr>
+          <td>Node.js</td>
+          <td>Express</td>
+        </tr>
+      </table>
+      <h4>Databases:</h4>
+      <hr class="border-light w-10" />
+
+      <p class="font-weight-bold mt-4 mb-4">
+        A database is an organized collection of structured information, or
+        data, designed for efficient storage, access, and management.
+      </p>
+      <ul>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#mysql"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            MySQL
+          </button>
+        </li>
+        <div id="mysql" class="collapse pl-3 pr-3 pt-3">
+          <p>
+            MySQL is an open-source relational database management system
+            (RDBMS). It is the most popular database system used with PHP.
+          </p>
+          <div class="d-flex justify-content-between">
+            <p>
+              <br /><br />
+              INSERT INTO Customers (CustomerName, ContactName, Address, City,
+              PostalCode, Country)<br />
+              VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger',
+              '4006', 'Norway');
+            </p>
+
+            <img
+              class="w-25 h-25"
+              src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png"
+            />
+          </div>
+        </div>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#mongodb"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            MongoDB
+          </button>
+        </li>
+        <div id="mongodb" class="collapse pl-3 pr-3 pt-3">
+          <p>
+            MongoDB the most popular NoSQL database, is an open-source
+            document-oriented database.
+          </p>
+        </div>
+        <li>
+          <button
+            data-bs-toggle="collapse"
+            data-bs-target="#mariadb"
+            class="btn btn-sm btn-dark transparent-btn"
+          >
+            MariaDB
+          </button>
+        </li>
+        <div id="mariadb" class="collapse pl-3 pr-3 pt-3">
+          <p>
+            MariaDB is one of the most popular open-source relational database
+            management system and could be used as a great replacement of MySQL.
+          </p>
+        </div>
+      </ul>
+    </div>
+    <div class="container pb-5">
+      <h2 id="fullstack">Full Stack Development:</h2>
+      <hr class="border-light w-32" />
+      <p class="font-weight-bold mt-4 mb-4">
+        Full-stack development refers to the practice of developing both the
+        frontend and backend of a website or web application. Full-stack
+        developers have a deep understanding of both areas and can build
+        end-to-end solutions.
+      </p>
+    </div>
+
+    <div class="container">
+      <h2>XAMPP:</h2>
+      <hr class="border-light w-10" />
+      <p class="font-weight-bold mt-4 mb-4">
+        XAMPP is a free program that lets you set up a mini web server on your
+        computer. It includes everything you need to build and test websites,
+        like a server (Apache), a database (MariaDB), and programming languages
+        (PHP, Perl). Think of it as a personal practice ground for web
+        developers, allowing them to create and fix websites on their own
+        computer before putting them online for everyone to see.
+      </p>
+    </div>
+
+    <script>
+      function frontend() {
+        document
+          .getElementById("frontend")
+          .scrollIntoView({ behavior: "smooth" });
+        document.body.style.height = document.body.scrollHeight + 200 + "px";
+      }
+
+      function backend() {
+        document
+          .getElementById("backend")
+          .scrollIntoView({ behavior: "smooth" });
+        document.body.style.height = document.body.scrollHeight + 200 + "px";
+      }
+
+      function fullstack() {
+        document
+          .getElementById("fullstack")
+          .scrollIntoView({ behavior: "smooth" });
+        document.body.style.height = document.body.scrollHeight + 200 + "px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+input {
+  border-radius: 40px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div {
+  text-align: center;
+}
+
+.submit:hover {
+  color: rgb(117, 114, 107) !important;
+  background-color: aliceblue;
+  transition-duration: 0.5s;
+}
+
+.submit:active {
+  transform: scale(0.95);
+  color: whitesmoke;
+  background-color: wheat;
+  transition-duration: 0.5s;
+}
+
+p {
+  text-align: center;
+}
+
+.action_btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label {
+  font-size: 32px;
+  cursor: pointer;
+}
